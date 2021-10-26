@@ -165,7 +165,7 @@ Container(
 ),
 ```
 
-## **Box Shadows **
+## **Box Shadows**
 
 - Class: `CLShadows`
 

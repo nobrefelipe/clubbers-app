@@ -5,7 +5,7 @@ import '../../../clubber.dart';
 
 class CLButton {
   ///
-  /// SHIFT UI SOLID BUTTON
+  /// CLUBBER SOLID BUTTON
   ///
   static Widget solid({
     required String label,
@@ -48,7 +48,7 @@ class CLButton {
   }
 
   ///
-  /// SHIFT UI OUTLINED BUTTON
+  /// CLUBBER OUTLINED BUTTON
   ///
   static Widget outlined({
     required String label,
