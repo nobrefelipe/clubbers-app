@@ -3,7 +3,7 @@
 ## CLDatetime
 This class is a wrapper for the Jiffy package. 
 
-We shoudl always be dependet on `CLDatetime` for datetime instead of Jiffy directly.
+We should always be dependet on `CLDatetime` for datetime instead of Jiffy directly.
 
 ### **mmm**
 Returs a short form month. 
