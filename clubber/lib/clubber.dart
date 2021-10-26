@@ -6,4 +6,4 @@ export './src/styling/fonts.dart';
 export './src/styling/shadows.dart';
 export './src/styling/spacing.dart';
 export './src/styling/typography.dart';
-export 'src/buttons/buttons.dart';
+export 'src/components/buttons/button.dart';

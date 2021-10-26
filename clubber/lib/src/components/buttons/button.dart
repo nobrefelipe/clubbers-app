@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_toolkit/flutter_ui_toolkit.dart';
 
-import '../../clubber.dart';
+import '../../../clubber.dart';
 
 class CLButton {
   ///

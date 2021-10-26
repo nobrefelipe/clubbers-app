@@ -15,5 +15,5 @@ final date = CLDatetime('21-10-2021 20:18:04Z');
 CalendarDayWidget(date)
 ```
 
-### **Visuals**
+### **Examples**
 ![alt text](preview.png)
