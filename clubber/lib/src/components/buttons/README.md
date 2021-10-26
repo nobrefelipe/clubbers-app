@@ -16,7 +16,6 @@ CLButton.outlined()
 | --------------------- | ----------------- |-----------|
 |  label                |  String           | required  |
 |  onPressed            |  Function         | required  |
-|  icon                 |  IconData?        |           |
 |  suffix               |  Widget?          |           |
 |  widthFator           |  double?          |           |
 |  color                |  Color?           |           |

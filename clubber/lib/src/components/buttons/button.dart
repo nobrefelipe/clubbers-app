@@ -11,38 +11,17 @@ class CLButton {
     required String label,
     required Function onPressed,
     double? widthFactor,
-    IconData? icon,
     Widget? suffix,
     Color? color,
     Color? shadowColor,
   }) {
-    ///
-    /// Suffix
-    ///
-    Widget _suffix() {
-      Widget i;
-      if (icon != null) {
-        i = Icon(
-          icon,
-          color: Colors.white,
-          size: 20,
-        );
-      } else if (suffix != null) {
-        i = suffix;
-      } else {
-        i = SizedBox.shrink();
-      }
-
-      return i;
-    }
-
     return UIButton.solid(
       as: solidButton,
       label: label,
       onPressed: onPressed,
       widthFactor: widthFactor,
       bgColor: color,
-      icon: _suffix(),
+      icon: suffix,
       shadowColor: shadowColor,
     );
   }
@@ -58,33 +37,13 @@ class CLButton {
     Widget? suffix,
     Color? color,
   }) {
-    ///
-    /// Suffix
-    ///
-    Widget _suffix() {
-      Widget i;
-      if (icon != null) {
-        i = Icon(
-          icon,
-          color: Colors.white,
-          size: 20,
-        );
-      } else if (suffix != null) {
-        i = suffix;
-      } else {
-        i = SizedBox.shrink();
-      }
-
-      return i;
-    }
-
     return UIButton.outlined(
       as: outlinedButton,
       label: label,
       onPressed: onPressed,
       widthFactor: widthFactor,
       bgColor: color,
-      icon: _suffix(),
+      icon: suffix,
     );
   }
 
