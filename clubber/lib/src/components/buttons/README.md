@@ -2,7 +2,7 @@
 
 - Class: `SUIButton`
 
-There are two kind of buttons you can choose from:
+There are two kind of buttons we can choose from:
 
 ```dart
 CLButton.solid()
@@ -20,6 +20,7 @@ CLButton.outlined()
 |  suffix               |  Widget?          |           |
 |  widthFator           |  double?          |           |
 |  color                |  Color?           |           |
+|  shadowColor          |  Color?           |           |
 
 
 ## How to use
@@ -58,7 +59,7 @@ CLButton.outlined(
 #### Solid Primary Button
 ![alt text](solid_button.png)
 
-![alt text](solid_button.png)
+![alt text](solid_secondary_button.png)
 
 
 #### Outlined Button
