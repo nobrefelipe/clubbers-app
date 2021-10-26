@@ -16,4 +16,4 @@ CalendarDayWidget(date)
 ```
 
 ### **Visuals**
-![alt text](preview.jpg)
+![alt text](preview.png)
