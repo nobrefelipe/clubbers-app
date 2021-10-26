@@ -1,4 +1,4 @@
-### Buttons
+### **Buttons**
 
 - Class: `SUIButton`
 
@@ -10,7 +10,7 @@ CLButton.outlined()
 ```
 
 
-## Arguments
+## **Arguments**
 
 | Argument              | Type              |           |
 | --------------------- | ----------------- |-----------|
@@ -23,7 +23,7 @@ CLButton.outlined()
 |  shadowColor          |  Color?           |           |
 
 
-## How to use
+## **How to use**
 
 ```dart{11,18,19,23}
 // Primary button
@@ -56,13 +56,13 @@ CLButton.outlined(
 
 ### **Examples**
 
-#### Solid Primary Button
-![alt text](solid_button.png)
+#### Solid Button
+![alt text](previews/solid_button.png)
 
-![alt text](solid_secondary_button.png)
+![alt text](previews/solid_secondary_button.png)
 
 
 #### Outlined Button
-![alt text](outlined_button.png)
+![alt text](previews/outlined_button.png)
 
-![alt text](outlined_secondary_button.png)
+![alt text](previews/outlined_secondary_button.png)
