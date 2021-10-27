@@ -10,6 +10,7 @@ class UiKitTests extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Clubber UI Kit'),
       ),
+      backgroundColor: CLPalette.darkGrey,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -21,12 +22,7 @@ class UiKitTests extends StatelessWidget {
               onPressed: () {},
             ),
             const SizedBox(height: 20),
-            CLButton.solid(
-              label: 'Solid button',
-              color: CLPalette.darkGrey,
-              onPressed: () {},
-            ),
-            const SizedBox(height: 20),
+
             CLButton.outlined(
               label: 'Outlined button',
               onPressed: () {},
