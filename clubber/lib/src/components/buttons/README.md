@@ -56,12 +56,12 @@ CLButton.outlined(
 ### **Examples**
 
 #### Solid Button
-![alt text](previews/solid_button.png)
+![alt text](preview/solid_button.png)
 
-![alt text](previews/solid_secondary_button.png)
+![alt text](preview/solid_secondary_button.png)
 
 
 #### Outlined Button
-![alt text](previews/outlined_button.png)
+![alt text](preview/outlined_button.png)
 
-![alt text](previews/outlined_secondary_button.png)
+![alt text](preview/outlined_secondary_button.png)
