@@ -24,11 +24,11 @@ flutter:
   fonts:
     - family: PulpDisplay
       fonts:
-        - asset: lib/fonts/PulpDisplay-Light.ttf
+        - asset: fonts/PulpDisplay-Light.ttf
           weight: 300
-        - asset: lib/fonts/PulpDisplay-Regular.ttf
+        - asset: fonts/PulpDisplay-Regular.ttf
           weight: 500
-        - asset: lib/fonts/PulpDidsplay-Bold.ttf
+        - asset: fonts/PulpDisplay-Bold.ttf
           weight: 700
-        - asset: lib/fonts/PulpDisplay-ExtraBold.ttf
+        - asset: fonts/PulpDisplay-ExtraBold.ttf
           weight: 900
