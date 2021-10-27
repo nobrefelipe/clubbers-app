@@ -71,6 +71,7 @@ class CLEventHeroItem extends StatelessWidget {
               CLText.heading(
                 title ?? 'Title Here',
                 heading: 2,
+                color: Colors.white,
               ),
 
               ///
