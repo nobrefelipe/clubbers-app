@@ -106,9 +106,9 @@ final solidButton = UIButtonDefaults(
 ///
 final outlinedButton = UIButtonDefaults(
   bgColor: Colors.transparent,
-  labelColor: CLPalette.darkGrey,
+  labelColor: CLPalette.lightGrey,
   borderRadius: 40,
-  borderColor: CLPalette.darkGrey,
+  borderColor: CLPalette.lightGrey,
   padding: CLSpacing.defaultSpacing,
 );
 
