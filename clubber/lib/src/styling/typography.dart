@@ -17,7 +17,7 @@ class CLText {
       as: _headingStyles,
       heading: heading,
       text: text,
-      color: color ?? Colors.white,
+      color: color ?? CLPalette.lightGrey,
     );
   }
 
@@ -31,7 +31,7 @@ class CLText {
     return UIHeading(
       as: _contentStyles,
       text: text,
-      color: color ?? CLPalette.lightGrey,
+      color: color ?? CLPalette.lightGrey.withOpacity(0.8),
     );
   }
 }
