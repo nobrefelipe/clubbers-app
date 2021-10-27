@@ -6,6 +6,7 @@ There are two kind of buttons we can choose from:
 
 ```dart
 CLButton.solid()
+CLButton.withShadow()
 CLButton.outlined()
 ```
 
@@ -19,7 +20,7 @@ CLButton.outlined()
 |  suffix               |  Widget?          |           |
 |  widthFator           |  double?          |           |
 |  color                |  Color?           |           |
-|  shadowColor          |  Color?           |           |
+|  shadow               |  BoxShadow?       | defaults to `CLShadows.coloredShadow`  |
 
 
 ## **How to use**

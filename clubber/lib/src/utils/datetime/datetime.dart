@@ -18,7 +18,7 @@ class CLDatetime {
   ///
   /// DD returns 01, 21, 30 etc...
   ///
-  String get dd => jiffyTime().format('DD');
+  String get dd => jiffyTime().format('dd');
 
   ///
   /// Time Format

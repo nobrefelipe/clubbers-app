@@ -50,7 +50,7 @@ final _headingStyles = UIHeadingDefaults(
 ///
 final _contentStyles = UIHeadingDefaults(
   color: CLPalette.lightGrey,
-  fontWeight: FontWeight.w300,
+  fontWeight: FontWeight.w500,
   heading: 6,
   fontFamily: CLFonts.pulpDisplay,
 );

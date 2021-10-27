@@ -2,14 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../../../clubber.dart';
 import '../../styling/border_radius.dart';
-import '../../utils/datetime.dart';
+import '../../utils/datetime/datetime.dart';
 
-class CalendarDayWidget extends StatelessWidget {
+class CLCalendarDayWidget extends StatelessWidget {
   final CLDatetime date;
-  const CalendarDayWidget(
-    Key? key,
+  const CLCalendarDayWidget(
     this.date,
-  ) : super(key: key);
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -29,8 +28,9 @@ class CalendarDayWidget extends StatelessWidget {
             heading: 6,
             color: Colors.black,
           ),
-          CLText.content(
+          CLText.heading(
             date.dd,
+            heading: 6,
             color: CLPalette.lightRed,
           ),
         ],

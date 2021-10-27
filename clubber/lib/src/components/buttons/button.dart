@@ -13,7 +13,6 @@ class CLButton {
     double? widthFactor,
     Widget? suffix,
     Color? color,
-    Color? shadowColor,
   }) {
     return UIButton.solid(
       as: solidButton,
@@ -22,7 +21,34 @@ class CLButton {
       widthFactor: widthFactor,
       bgColor: color,
       icon: suffix,
-      shadowColor: shadowColor,
+      elevation: 0,
+    );
+  }
+
+  ///
+  /// CLUBBER SOLID BUTTON WITH SHADOW
+  ///
+  static Widget withShadow({
+    required String label,
+    required Function onPressed,
+    double? widthFactor,
+    Widget? suffix,
+    Color? color,
+    BoxShadow? shadow,
+  }) {
+    return Container(
+      decoration: BoxDecoration(
+        boxShadow: [shadow ?? CLShadows.coloredShadow],
+      ),
+      child: UIButton.solid(
+        as: solidButton,
+        label: label,
+        onPressed: onPressed,
+        widthFactor: widthFactor,
+        bgColor: color,
+        icon: suffix,
+        elevation: 0,
+      ),
     );
   }
 
@@ -71,7 +97,7 @@ final solidButton = UIButtonDefaults(
   bgColor: CLPalette.primary,
   labelColor: Colors.white,
   borderRadius: 40,
-  elevation: 10,
+  elevation: 0,
   padding: CLSpacing.defaultSpacing,
 );
 
